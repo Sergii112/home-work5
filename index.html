@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework – CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 1. Tag selector -->
+<p>Selector for tag "p", specificity 0-0-0-1</p>
+
+<!-- 2. Class selector -->
+<div class="color-blue">Selector for class ".color-blue", specificity 0-0-1-0</div>
+
+<!-- 3. ID selector -->
+<p id="unique">Selector for ID "#unique", specificity 0-1-0-0</p>
+
+<!-- 4. Attribute selector -->
+<div data-role="info">Selector for attribute [data-role="info"], specificity 0-0-1-0</div>
+
+<!-- 5. Descendant selectors -->
+<section>
+    <span>Selector "section span", element span inside section, specificity 0-0-0-2</span>
+</section>
+
+<!-- 6. Child selectors -->
+<ul>
+    <li>Selector "ul > li", direct children of ul, specificity 0-0-0-2</li>
+</ul>
+
+<!-- 7. Adjacent sibling selector -->
+<div></div>
+<p>Selector "div + p", p immediately after div, specificity 0-0-0-2</p>
+
+<!-- 8. General sibling selector -->
+<h2></h2>
+<p>Selector "h2 ~ p", all p after h2, specificity 0-0-0-2</p>
+
+<!-- 9. Combined selector: tag + class + attribute -->
+<div class="note" data-type="info">Selector "div.note[data-type='info']", specificity 0-0-2-1</div>
+
+<!-- 10. Combined selector: ID + class + nesting -->
+<div id="container">
+    <p class="highlight">Selector "#container .highlight", specificity 0-1-1-1</p>
+</div>
+
+</body>
+</html>
