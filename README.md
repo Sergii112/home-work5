@@ -2,4 +2,4 @@
 
 <p>one shoot one head</p>
 <p>just do it</p>
-<p>finnaly</p>
+<p>final</p>
