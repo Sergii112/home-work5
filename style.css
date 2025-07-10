@@ -1,0 +1,49 @@
+/* 1. Tag selector */
+p {
+    background-color: lightcoral;
+}
+
+/* 2. Class selector */
+.color-blue {
+    background-color: lightblue;
+}
+
+/* 3. ID selector */
+#unique {
+    background-color: lightgreen;
+}
+
+/* 4. Attribute selector */
+[data-role="info"] {
+    background-color: orange;
+}
+
+/* 5. Descendant selector */
+section span {
+    background-color: violet;
+}
+
+/* 6. Child selector */
+ul > li {
+    background-color: lightyellow;
+}
+
+/* 7. Adjacent sibling selector */
+div + p {
+    background-color: gold;
+}
+
+/* 8. General sibling selector */
+h2 ~ p {
+    background-color: pink;
+}
+
+/* 9. Combined selector */
+div.note[data-type="info"] {
+    background-color: cyan;
+}
+
+/* 10. Combined selector with ID and class */
+#container .highlight {
+    background-color: lightseagreen;
+}
