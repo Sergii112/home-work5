@@ -1,0 +1,39 @@
+p {
+    background-color: lightcoral;
+}
+
+.color-blue {
+    background-color: lightblue;
+}
+
+#unique {
+    background-color: lightgreen;
+}
+
+[data-role="info"] {
+    background-color: orange;
+}
+
+section span {
+    background-color: violet;
+}
+
+ul > li {
+    background-color: lightyellow;
+}
+
+div + p {
+    background-color: gold;
+}
+
+h2 ~ p {
+    background-color: pink;
+}
+
+div.note[data-type="info"] {
+    background-color: cyan;
+}
+
+#container .highlight {
+    background-color: lightseagreen;
+}
