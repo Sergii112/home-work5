@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+  table-layout: fixed;
+}
+
+td {
+  border: 6px solid black;
+}
+
+.red {
+  background-color: #d90000;
+  width: 50%;
+}
+
+.blue {
+  background-color: #004592;
+}
+
+.yellow {
+  background-color: #f9d01e;
+}
+
+.black {
+  background-color: #000;
+  height: 50px;
+}
+
+.white {
+  background-color: white;
+}
